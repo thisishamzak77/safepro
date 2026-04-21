@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clock, Award } from "lucide-react";
+import { Award } from "lucide-react";
 import styles from "./TrainingCard.module.css";
 
 const TrainingCard = ({ title, description, duration, category, slug, image }) => {
@@ -25,9 +25,6 @@ const TrainingCard = ({ title, description, duration, category, slug, image }) =
         </div>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
-        <Link href={`/training/${slug}`} className={styles.link}>
-          View Details <ArrowRight size={16} />
-        </Link>
       </div>
     </div>
   );
