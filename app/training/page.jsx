@@ -65,7 +65,7 @@ const allPrograms = [
     description: "Life-saving skills for emergency response, stabilization, and trauma care in the workplace.",
     category: "HSE Training",
     slug: "first-aid",
-    image: "https://images.unsplash.com/photo-1516841273335-e39b37888115?auto=format&fit=crop&q=80&w=800"
+    image: "/firstaid.jpeg"
   },
   {
     title: "Risk Based Process Safety Management",

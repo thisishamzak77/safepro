@@ -107,6 +107,20 @@ const programsData = {
       "Advanced Case Studies & Simulation"
     ]
   },
+  "first-aid": {
+    title: "Basic & Advance First Aid",
+    image: "/firstaid.jpeg",
+    certification: "HSE Standards",
+    outcomes: ["First Aid Responder", "Safety Officer", "Emergency Coordinator"],
+    overview: "Comprehensive guide to basic & advance first aid ensuring workplace safety and compliance. This course covers life-saving techniques, stabilization, and trauma care.",
+    modules: [
+      "Introduction & Definitions",
+      "Hazard Identification",
+      "Control Measures",
+      "Emergency Procedures",
+      "Reporting & Audits"
+    ]
+  },
   "boiler-safety": {
     title: "Safe Operation of Boilers & Furnaces",
     image: "/boiler.png",
