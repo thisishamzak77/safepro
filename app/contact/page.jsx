@@ -41,7 +41,7 @@ export default function Contact() {
                     <div className={styles.iconWrapper}><Mail size={20} /></div>
                     <div>
                       <p className={styles.label}>Email Us</p>
-                      <p className={styles.value}>info@safepropk.com</p>
+                      <p className={styles.value}>info@sphse.com</p>
                     </div>
                   </div>
                   <div className={styles.item}>
@@ -66,7 +66,7 @@ export default function Contact() {
               ) : (
                 <form 
                   className={styles.form} 
-                  action="https://formsubmit.co/info@safepropk.com" 
+                  action="https://formsubmit.co/info@sphse.com" 
                   method="POST"
                 >
                   {/* Honeypot */}

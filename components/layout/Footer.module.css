@@ -120,3 +120,14 @@
     text-align: center;
   }
 }
+
+.contactLink {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contactLink:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}

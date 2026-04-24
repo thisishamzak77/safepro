@@ -1,7 +1,5 @@
-"use client";
 
 import React from "react";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { Clock, Award, Briefcase, CheckCircle, ArrowLeft, ArrowRight } from "lucide-react";
@@ -389,8 +387,14 @@ const programsData = {
   },
 };
 
-export default function ProgramDetail() {
-  const { slug } = useParams();
+export async function generateStaticParams() {
+  return Object.keys(programsData).map((slug) => ({
+    slug: slug,
+  }));
+}
+
+export default async function ProgramDetail({ params }) {
+  const { slug } = await params;
   const program = programsData[slug] || programsData["fire-safety"]; // Fallback for demo
 
   return (

@@ -1,0 +1,28 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/about/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/consultancy/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/contact/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/training/[slug]/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ],
+    "[project]/app/training/page": [
+      "static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
